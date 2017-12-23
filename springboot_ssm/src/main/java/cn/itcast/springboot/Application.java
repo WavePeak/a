@@ -10,6 +10,7 @@ public class Application {
 	public static void main(String[] args) {
 		/** 创建SpringApplication */
 		SpringApplication springApplication = new SpringApplication(Application.class);
+		System.out.println("asdasas");
 		/** 设置关闭Banner */
 		springApplication.setBannerMode(Mode.OFF);
 		/** 运行 */
